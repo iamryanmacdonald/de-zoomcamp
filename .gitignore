@@ -1,0 +1,15 @@
+# csv files
+*.csv
+
+# jupyter data
+.ipynb_checkpoints
+
+# postgres data
+ny_taxi_postgres_data
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*

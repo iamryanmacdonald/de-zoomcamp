@@ -5,6 +5,7 @@
 .ipynb_checkpoints
 
 # postgres data
+mage_data
 ny_taxi_postgres_data
 
 # Local .terraform directories
@@ -13,3 +14,6 @@ ny_taxi_postgres_data
 # .tfstate files
 *.tfstate
 *.tfstate.*
+
+# GCP credentials
+key.json

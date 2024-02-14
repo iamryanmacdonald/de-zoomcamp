@@ -1,6 +1,9 @@
 # csv files
 *.csv
 
+# duckdb data
+*.duckdb
+
 # jupyter data
 .ipynb_checkpoints
 

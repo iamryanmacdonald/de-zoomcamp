@@ -5,10 +5,35 @@ sources:
     database: de-zoomcamp-414203
     schema: ny_taxi
     tables:
+      - name: fhv_taxi_data
       - name: green_taxi_data
       - name: yellow_taxi_data
 
 models:
+  - name: stg_fhv_taxi_data
+    description: ""
+    columns:
+      - name: dispatching_base_num
+        data_type: string
+        description: ""
+      - name: pickup_datetime
+        data_type: timestamp
+        description: ""
+      - name: dropoff_datetime
+        data_type: timestamp
+        description: ""
+      - name: pickup_location_id
+        data_type: int64
+        description: ""
+      - name: dropoff_location_id
+        data_type: int64
+        description: ""
+      - name: sr_flag
+        data_type: string
+        description: ""
+      - name: affiliated_base_number
+        data_type: string
+        description: ""
   - name: stg_green_taxi_data
     description: ""
     columns:

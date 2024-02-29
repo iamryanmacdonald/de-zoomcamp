@@ -1,5 +1,9 @@
 # csv files
 *.csv
+*.csv.gz
+
+# parquet files
+*.parquet
 
 # include dbt seed csv file
 !taxi_zone_lookup.csv
@@ -23,3 +27,6 @@ ny_taxi_postgres_data
 
 # GCP credentials
 key.json
+
+# batch processing files
+05-batch-processing/data

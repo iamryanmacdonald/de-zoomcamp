@@ -6,7 +6,7 @@
 *.parquet
 
 # include dbt seed csv file
-!taxi_zone_lookup.csv
+!04-analytics-engineering/taxi_rides_ny/seeds/taxi_zone_lookup.csv
 
 # duckdb data
 *.duckdb
